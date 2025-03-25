@@ -1,3 +1,14 @@
+<?php
+require_once 'services/moviesService.php';
+
+try {
+    $movies = getNowPlaying();
+} catch (Exception $e) {
+    $movies = [];
+    $error = $e->getMessage();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>

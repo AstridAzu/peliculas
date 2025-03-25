@@ -1,4 +1,3 @@
-<?php
 
 // Definir entorno (desarrollo o producción)
 define('ENVIRONMENT', 'development'); // Cambiar a 'production' en producción
